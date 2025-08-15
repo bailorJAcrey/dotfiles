@@ -2,3 +2,7 @@
 nvim/
 home-manager/
 ags/
+
+# Some home manager reserved dirs
+environment.d/
+systemd/
