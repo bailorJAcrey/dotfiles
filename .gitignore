@@ -3,6 +3,10 @@ nvim/
 home-manager/
 ags/
 
-# Some home manager reserved dirs
+# Append other shit below
 environment.d/
 systemd/
+pulse/
+dconf/
+gtk-*/
+xsettingsd/
