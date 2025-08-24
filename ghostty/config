@@ -2,4 +2,4 @@ window-inherit-font-size = false
 font-family = "Inconsolata Nerd Font"
 font-size = 12
 theme = GruvboxDark
-background-opacity = 0.9
+background-opacity = 0.75
