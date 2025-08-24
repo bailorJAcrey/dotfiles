@@ -1,5 +1,6 @@
 set fish_greeting
 
+export GUM_SPIN_SPINNER_FOREGROUND="14"
 set EDITOR nvim
 
 if status is-interactive
