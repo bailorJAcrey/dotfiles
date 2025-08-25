@@ -9,4 +9,5 @@ if status is-interactive
 
     alias lg lazygit
     abbr --add ndvp nix develop -c "$SHELL"
+    abbr --add nix-search gum spin --show-output --title="Searching..." nix-search $argv
 end
