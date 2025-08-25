@@ -5,6 +5,7 @@ set EDITOR nvim
 
 if status is-interactive
     set PATH "$PATH:/home/bailor/.local/bin"
+    fish_vi_key_bindings
 
     alias lg lazygit
     abbr --add ndvp nix develop -c "$SHELL"
