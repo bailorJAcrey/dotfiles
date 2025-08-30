@@ -1,0 +1,41 @@
+@theme "/dev/null"
+configuration {
+  font: "Inconsolata Nerd Font Medium 12";
+  display-drun: " > ";
+  show-icons: true;
+  terminal: "ghostty";
+  case-sensitive: false;
+}
+
+* {
+  bg: #32302f;
+  bg-dark: #1d2021;
+  fg: #fbf1c7;
+  color: @fg;
+  background-color: @bg;
+}
+
+window {
+  width: 35%;
+  height: 25%;
+  border: 2px;
+  border-color: #504945;
+}
+
+listview {
+  padding: 0px 4px 0px;
+}
+
+inputbar {
+  background-color: @bg;
+  border: 0px 0px 2px;
+  border-color: #504945;
+}
+
+prompt {
+  font: "Inconsolata Nerd Font Bold 12";
+}
+
+element-icon {
+  size: 30px;
+}
