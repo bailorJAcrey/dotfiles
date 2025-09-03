@@ -2,6 +2,7 @@ set fish_greeting
 
 export GUM_SPIN_SPINNER_FOREGROUND="14"
 set EDITOR nvim
+set SHELL fish
 
 if status is-interactive
     set PATH "$PATH:/home/bailor/.local/bin"
@@ -14,6 +15,6 @@ if status is-interactive
     funcsave -q cht.sh
 
     alias lg lazygit
-    abbr --add ndvp nix develop -c "$SHELL"
+    abbr --add ndvp nix develop -c $SHELL
     abbr --add nix-search gum spin --show-output --title="Searching..." nix-search $argv
 end
